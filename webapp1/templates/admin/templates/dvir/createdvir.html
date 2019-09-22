@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+
+            {% block content %}
+              <div class="top-pad">
+                <form
+                    method="POST"
+                    action="/dvir/createdvir"
+                    role="form">
+                  {{ form.csrf_token }}
+                  <table>
+                  <td>
+                  <tr><div class="form-group">{{form.DriverController.label }}: {{ form.DriverController() }}</tr></div>
+                  <tr><div class="form-group">{{form.HeaterDefroster.label }}: {{ form.HeaterDefroster() }}</tr></div>
+                  <tr><div class="form-group">{{form.Horn.label }}: {{ form.Horn() }}</tr></div>
+                  <tr><div class="form-group">{{form.Steering.label }}: {{ form.Steering() }}</tr></div>
+                  <tr><div class="form-group">{{form.DriverSeat.label }}: {{ form.DriverSeat() }}</tr></div>
+                  <tr><div class="form-group">{{form.GlassandMirrors.label }}: {{ form.GlassandMirrors() }}</tr></div>
+                  <tr><div class="form-group">{{form.Windshield.label }}: {{ form.Windshield() }}</tr></div>
+                  <tr><div class="form-group">{{form.EmergencyEquipment.label }}: {{ form.EmergencyEquipment() }}</tr></div>
+                  <tr><div class="form-group">{{form.FuelSystem.label }}: {{ form.FuelSystem() }}</tr></div>
+                  <tr><div class="form-group">{{form.AirBrakeSystem.label }}: {{ form.AirBrakeSystem() }}</tr></div>
+                  <tr><div class="form-group">{{form.Tires.label }}: {{ form.Tires() }}</tr></div>
+                  <tr><div class="form-group">{{form.Wheels.label }}: {{ form.Wheels() }}</tr></div>
+                  <tr><div class="form-group">{{form.SuspensionSystem.label }}: {{ form.SuspensionSystem() }}</tr></div>
+                  <tr><div class="form-group">{{form.CouplingDevices.label }}: {{ form.CouplingDevices() }}</tr></div>
+                  <tr><div class="form-group">{{form.Lamps.label }}: {{ form.Lamps() }}</tr></div>
+
+                  </tr>
+                  <tr>
+                  <tr><div class="form-group">{{form.ExhaustSystem.label }}: {{ form.ExhaustSystem() }}</tr></div>                  
+                  <tr><div class="form-group">{{form.Lamps.label }}: {{ form.Lamps() }}</tr></div>
+                  <tr><div class="form-group">{{form.Frameandcargo.label }}: {{ form.Frameandcargo() }}</tr></div>
+                  <tr><div class="form-group">{{form.hydraulicbrakes.label }}: {{ form.hydraulicbrakes() }}</tr></div>                                    
+                  <tr><div class="form-group">{{form.electricbraks.label }}: {{ form.electricbraks() }}</tr></div>
+                  <tr><div class="form-group">{{form.Majordefectsnotcodedabove.label }}: {{ form.Majordefectsnotcodedabove() }}</tr></div>
+                  <tr><div class="form-group">{{form.TimeofInspection.label }}: {{ form.TimeofInspection() }}</tr></div>
+                  <tr><div class="form-group">{{form.Dateofinspection.label }}: {{ form.Dateofinspection() }}</tr></div>
+                  <tr><div class="form-group">{{form.Odometer.label }}: {{ form.Odometer() }}</tr></div>                  
+                  <tr><div class="form-group">{{form.LocationofInspection.label }}: {{ form.LocationofInspection() }}</tr></div>
+                  <tr><div class="form-group">{{form.TrailerLicensePlate.label }}: {{ form.TrailerLicensePlate() }}</tr></div>
+                  <tr><div class="form-group">{{form.InspectorName.label }}: {{ form.InspectorName() }}</tr></div>                                   
+                  <tr><div class="form-group">{{form.Trailer.label }}: {{ form.Trailer() }}</tr></div>
+                  </td>
+                  </table>
+                                                      
+                  <button type="submit" class="btn btn-default">Submit</button>
+
+                </form>
+              </div>
+            {% endblock %}

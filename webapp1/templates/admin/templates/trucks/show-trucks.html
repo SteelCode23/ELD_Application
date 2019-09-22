@@ -1,0 +1,33 @@
+{% extends 'admin-home.html' %}
+
+{% block container %}
+
+  <br/>
+  <table class="table table-striped table-bordered">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Username</th>
+        <th>Is Admin ?</th>
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for truck in trucks %}
+        <tr>
+          <td>{{ truck.unit }}</td>
+          <td>{{ truck.LicensePlate }}</td>
+          <td>{{ truck.State_province }}</td>
+          <td>{{ truck.VIN }}</td>
+          <td>
+            <a href="{{ url_for('auth.user_update_admin', id=user.id) }}" class="btn btn-info btn-xs">Edit</a>
+          </td>
+          <td>
+            <a class="btn btn-danger btn-xs" href={{ url_for('auth.user_delete_admin', id=user.id) }}>Delete</a>
+          </td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endblock %}

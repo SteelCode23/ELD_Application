@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div>
+    {% with messages = get_flashed_messages() %}
+  {% if messages %}
+    <ul class=flashes>
+    {% for message in messages %}
+        <div class="alert alert-info alert-dismissable">
+      <button type="button" class="close" data-dismiss="alert">&times;</button> {{ message }}
+        </div>
+    {% endfor %}
+    </ul>
+  {% endif %}
+{% endwith %}</div>
+
+<div class="table-responsive">
+    <form
+        method="POST"
+        action="/drivers/create-driver"
+        role="form">
+      {{ form.csrf_token }}
+      <div class="form-group">{{ form.firstname.label }}: {{ form.firstname() }}</div>
+      <div class="form-group">{{ form.lastname.label }}: {{ form.lastname() }}</div>
+      <div class="form-group">{{ form.driverslicense.label }}: {{ form.driverslicense() }}</div>
+      <div class="form-group">{{ form.driverslicensestate.label }}: {{ form.driverslicensestate() }}</div>
+      <button type="submit" class="btn btn-default">Submit</button>
+
+    </form>
+  </div>
+{% endblock %}
+

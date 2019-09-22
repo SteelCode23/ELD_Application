@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="/static/css/landing-page.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="/static/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand topnav" href="#">E-Log Station</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a href="#us">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Header -->
+
+    <div class="intro-header">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>E-Log Station</h1>
+                        <h3>FMCSA Compliant ELDs</h3>
+                        <hr class="intro-divider">
+                        <ul class="list-inline intro-social-buttons">
+                            <li>
+                                
+                                <a href = "http://54.208.49.250/admin/login/" class="btn btn-default btn-lg"><i class="fa fa-mobile"></i> <span class="network-name">Electronic Logging</span></a>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.intro-header -->
+
+    <!-- Page Content -->
+
+
+    <div class="content-section-a">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6"> <a name="about"></a>
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+
+                    <h2 class="section-heading">About Us</h2>
+                    <p class="lead">Elog Stations is Canada&#39;s source for tracking what matters most to our customers. Simple and Effective. Elog Stations will make access to your logs and track them to make it Easy for your business, so you get the meaningful return on investment you expect.
+As your partner, when your needs grow, we will grow with you, working hand-in-hand to support you.
+
+<br/>We are a proud provider of tracking solutions to company fleets across the U.S. and Canada. Whether the business is in Delivery, Transportation, Home-services, Utilities or Public Transport. Our solutions have found a place and are continuing to yield great benefits to our clients.</p>
+                </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6"> <a  name="services"></a>
+                    <hr class="section-heading-spacer">
+
+                    <div class="clearfix"></div>
+                   
+                    <h2 class="section-heading">Services</h2>
+                    <p class="lead"><i class="fa fa-wifi" aria-hidden="true"></i>  FMCSA certified electronic logging devices (Wifi and Bluetooth Capabilities)<br/>
+<br/><i class="fa fa-cloud-upload" aria-hidden="true"></i>  User Friendly Cloud Based Software as a Service<br/>
+<br/><i class="fa fa-mobile" aria-hidden="true"></i>  Mobile Application compatible with IOS, Android, and Windows </p>
+                </div>
+                
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <a  name="us"></a>
+                    <div class="clearfix" name="us"></div>
+                    <h2 class="section-heading">Contact Us</h2>
+                    <p class="lead">We are open for Business 24/7
+<br/>Contact us for rates, current promotions, customer support and general information
+<br/><i class="fa fa-envelope" aria-hidden="true"></i>
+sales@elogstation.com
+<br/><i class="fa fa-phone" aria-hidden="true"></i> 519-551-1620<br/>
+
+<br/><b>Elogstation Headquarters</b>
+<br/>332 Elm Street
+<br/>Windsor, ON
+<br/>N9A 5H1</p>
+  <form action="{{ url_for('elogstation.home') }}" method=post>
+    {{ form.hidden_tag() }}</br>
+ 
+    {{ form.name.label }}
+    {{ form.name }}</br>
+ 
+    {{ form.email.label }}
+    {{ form.email }}</br>
+ 
+    {{ form.subject.label }}
+    {{ form.subject }}</br>
+ 
+    {{ form.message.label }}
+    {{ form.message }}</br>
+ 
+    {{ form.submit }}
+  </form>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+	<a  name="contact"></a>
+    <div class="banner">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Connect to become compliant today!</h2>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="list-inline banner-social-buttons">
+                        <li>
+                            <a class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name"></span></a>
+                        </li>
+                        <li>
+                            <a class="btn btn-default btn-lg"><i class="fa fa-facebook-square" aria-hidden="true"></i><span class="network-name"></span></a>
+                        </li>
+                        <li>
+                            <a  class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name"></span></a>
+                        </li>
+                        <li>
+                            <a  class="btn btn-default btn-lg"><i class="fa fa-instagram" aria-hidden="true"></i> <span class="network-name"></span></a>
+                        </li>
+                        <li>
+                            <a class="btn btn-default btn-lg"><i class="fa fa-envelope" aria-hidden="true"></i> <span class="network-name"></span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.banner -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#services">Services</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+
+                    </ul>
+                    <p class="copyright text-muted small">Copyright &copy;Infinite Data Solutions. All Rights Reserved 2017</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="/static/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/static/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

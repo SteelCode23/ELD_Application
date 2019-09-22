@@ -1,0 +1,25 @@
+{% extends 'home.html' %}
+
+{% block content %}
+  <div class="col-xs-4"></div>
+  
+  <div class="col-xs-4">
+    <div class = "b-container">
+      <form  method="POST"  action="{{ url_for('auth.register') }}"  role="form">
+        {{ form.csrf_token }}
+        <div class="form-group"><p><b> Create Your E-Logstation Account</b></p> </div>
+        <div class="form-group"><p> Ensure your company's profitability with E-logstation. Advanced analytics and compliance for transportation companies.</p> </div>
+        <div class="form-group">{{ form.username.label }}: {{ form.username() }}</div>
+        <div class="form-group">{{ form.password.label }}: {{ form.password() }}</div>
+        <div class="form-group">{{ form.confirm.label }}: {{ form.confirm() }}</div>
+        <div class="form-group">{{ form.Company.label }}: {{ form.Company() }}</div>
+        <div class="form-group">{{ form.Address.label }}: {{ form.Address() }}</div>
+        <div class="form-group">{{ form.City.label }}: {{ form.City() }}</div>
+        <div class="form-group">{{ form.Zip.label }}: {{ form.Zip() }}</div>
+        <div class="form-group">{{ form.email.label }}: {{ form.email() }}</div>
+
+        <button type="submit" class="btn btn-danger">Create Account</button>
+      </form>
+    </div>
+  </div>
+{% endblock %}

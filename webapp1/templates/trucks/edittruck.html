@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div>
+    {% with messages = get_flashed_messages() %}
+  {% if messages %}
+    <ul class=flashes>
+    {% for message in messages %}
+        <div class="alert alert-info alert-dismissable">
+      <button type="button" class="close" data-dismiss="alert">&times;</button> {{ message }}
+        </div>
+    {% endfor %}
+    </ul>
+  {% endif %}
+{% endwith %}</div>
+
+  <br/>
+<div class="table-responsive">
+  <form
+                            method="POST"
+                            action="/trucks/editruck?uid={{data.uid}}&update=true"
+                            role="form">
+  <table class="table table-striped table-bordered">
+    <tr><td><b>Unit Number</b></td><td>{{form.unit}}</td></tr>
+    <tr><td><b>License Plate</b></td><td>{{form.License_Plate}}</td></tr>
+    <tr><td><b>State</b></td><td>{{form.State_province}}</td></tr>
+    <tr><td><b>VIN</b></td><td>{{form.VIN}}</td></tr>
+    <tr><td><button type="submit">Submit</button></td><td><a href="/trucks/showtruck">Back</a></td></tr>
+
+  </table>
+  </form>
+</div>
+{% endblock %}
+

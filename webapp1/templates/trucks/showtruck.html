@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content%}
+<div class="table-responsive">
+<table class="table">
+    <tr>
+        <td><b>VIN</b></td>
+            <td><b>License Plate</b></td>
+            <td><b>State/Province</b></td>
+            <td><b>Unit</b></td>
+    </tr>
+    <tr>
+        {% for i in data %}
+        <tr>
+            <td>{{i.unit}}</td>
+            <td>{{i.License_Plate}}</td>
+            <td>{{i.State_province}}</td>
+            <td>{{i.VIN}}</td>
+    <td><button><a href ="/trucks/editruck?uid={{i.uid}}">Update</a></button></td>
+    <td><button><a href ="/trucks/deletetruck?uid={{i.uid}}">Delete</a></button></td>
+        {% endfor %}
+    </tr>
+</table>
+</div>
+{% endblock%}

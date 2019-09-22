@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div>
+    {% with messages = get_flashed_messages() %}
+  {% if messages %}
+    <ul class=flashes>
+    {% for message in messages %}
+        <div class="alert alert-info alert-dismissable">
+      <button type="button" class="close" data-dismiss="alert">&times;</button> {{ message }}
+        </div>
+    {% endfor %}
+    </ul>
+  {% endif %}
+{% endwith %}</div>
+
+  <br/>
+<div class="table-responsive">
+  <!--<form-->
+                            <!--method="POST"-->
+                            <!--action="/drivers/edit-driver?uid={{data.uid}}&update=true"-->
+                            <!--role="form">-->
+  <!--<table class="table table-striped table-bordered">-->
+    <!--<tr><td><b>First Name</b></td><td>{{form.First_Name}}</td></tr>-->
+    <!--<tr><td><b>Last Name</b></td><td>{{form.Last_Name}}</td></tr>-->
+    <!--<tr><td><b>Driver's License Number</b></td><td>{{form.Drivers_License}}</td></tr>-->
+    <!--<tr><td><b>State/Province</b></td><td>{{form.Drivers_License_State}}</td></tr>-->
+    <!--<tr><td><button type="submit">Submit</button></td><td><a href="/drivers/show-driver">Back</a></td></tr>-->
+
+  <!--</table>-->
+  <!--</form>-->
+
+    <div class="top-pad">
+            <form
+        method="POST"
+        action="/drivers/edit-driver?uid={{data.uid}}&update=true"
+        role="form">
+            {{ form.hidden_tag() if form.hidden_tag }}
+            {% for f in form if f.type != 'CSRFTokenField' %}
+            <div>
+            {{ f.label }}
+            {{ f }}
+            {% if f.errors %}
+            <ul>
+                {% for e in f.errors %}
+                <li>{{ e }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+            </div>
+            {% endfor %}
+            <button class="btn" type="submit">Submit</button>
+        </form>
+<div><a href = "/drivers/show-driver">Back</a></div>
+
+</div>
+{% endblock %}
+

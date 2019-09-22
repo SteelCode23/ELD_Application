@@ -1,0 +1,104 @@
+{% extends "layout.html" %}
+{% block body %}
+<script type="text/javascript">
+  $(function() {
+    var driving = function(e) {
+      $.getJSON($SCRIPT_ROOT + '/DRIVING', {
+        a: $('input[name="a"]').val(),
+        b: $('input[name="b"]').val()
+      }, function(data) {
+        $('#result').text(data.result);
+        $('input[name=a]').focus().select();
+      });
+      return false;
+    };
+    $('a#drive').bind('click', driving);
+    $('input[type=text]').bind('keydown', function(e) {
+      if (e.keyCode == 13) {
+        submit_form(e);
+      }
+    });
+    $('input[name=a]').focus();
+  });
+</script>
+
+<script type="text/javascript">
+  $(function() {
+    var onduty = function(e) {
+      $.getJSON($SCRIPT_ROOT + '/ONDUTY', {
+        a: $('input[name="a"]').val(),
+        b: $('input[name="b"]').val()
+      }, function(data) {
+        $('#result').text(data.result);
+        $('input[name=a]').focus().select();
+      });
+      return false;
+    };
+    $('a#on').bind('click', onduty);
+    $('input[type=text]').bind('keydown', function(e) {
+      if (e.keyCode == 13) {
+        submit_form(e);
+      }
+    });
+    $('input[name=a]').focus();
+  });
+</script>
+
+
+<script type="text/javascript">
+  $(function() {
+    var sleeping = function(e) {
+      $.getJSON($SCRIPT_ROOT + '/SLEEPING', {
+        a: $('input[name="a"]').val(),
+        b: $('input[name="b"]').val()
+      }, function(data) {
+        $('#result').text(data.result);
+        $('input[name=a]').focus().select();
+      });
+      return false;
+    };
+    $('a#sleep').bind('click', sleeping);
+    $('input[type=text]').bind('keydown', function(e) {
+      if (e.keyCode == 13) {
+        submit_form(e);
+      }
+    });
+    $('input[name=a]').focus();
+  });
+</script>
+
+
+<script type="text/javascript">
+  $(function() {
+    var offduty = function(e) {
+      $.getJSON($SCRIPT_ROOT + '/OFFDUTY', {
+        a: $('input[name="a"]').val(),
+        b: $('input[name="b"]').val()
+      }, function(data) {
+        $('#result').text(data.result);
+        $('input[name=a]').focus().select();
+      });
+      return false;
+    };
+    $('a#off').bind('click', offduty);
+    $('input[type=text]').bind('keydown', function(e) {
+      if (e.keyCode == 13) {
+        offduty(e);
+      }
+    });
+    $('input[name=a]').focus();
+  });
+</script>
+
+
+<h1>jQuery Example</h1>
+<p>
+  <input type="text" size="5" name="a"> +
+  <input type="text" size="5" name="b"> =
+  <span id="result">?</span>
+<p><a href=# id="drive">DRIVING</a>
+<p><a href=# id="on">ON DUTY</a>
+<p><a href=# id="sleep">SLEEPING</a>
+<p><a href=# id="off">OFFDUTY</a>
+
+{% endblock %}

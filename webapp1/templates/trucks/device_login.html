@@ -1,0 +1,78 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+  <br/>
+<table class="table table-striped table-bordered">
+    <tr>
+
+
+        <td>Driver Name</td>
+        <td>{{drivers_name}}</td>
+        </tr>
+        <tr>
+        <td>Current Status</td>
+        {% if  drivers_status == 1%}
+        <td><b>Active</b></td>
+        {% else %}
+        <td>Not Logged In</td>
+        {% endif %}
+
+    </tr>
+</table>
+
+  <table class="table table-striped table-bordered">
+    <thead>
+    <tr>
+    <td><b>Device</b></td>
+    <td><b>Login</b></td>
+    <td><b>Status</b></td>
+    <td><b>Remaining Hours</b></td>
+    </tr>
+    </thead>
+        {% for i in named_device %}
+            <tr>
+            <td>{{i.Device_Number}}</td>
+            <td>
+
+            {% if drivers_status == 0 %}
+                
+                {% if i.status == 0 %}
+                    <a href="/trucks/login?device={{i.Device_Number}}" class="btn btn-info btn-xs">Login</a>
+                {% else %}
+                <a href="/" class="btn btn-info btn-xs">Available</a>
+                {% endif%}
+            {% else %}
+             {% if i.status == 0 %}
+             <a href="/" class="btn btn-info btn-xs">Available</a>
+             {% else %}
+                <a href="/trucks/logout?device={{i.Device_Number}}" class="btn btn-info btn-xs">Logout</a>
+            {% endif %}
+            {% endif %}
+            </td>
+
+            <td>
+            {% if i.status == 0 %}
+                Available
+            {% else %}
+                {% if mydevice == i %}
+                Active
+                {% else %}
+                In Use
+                {% endif %}
+
+            {% endif %}
+            </td>
+            <td>
+            {% if i.status == 0 %}
+                14.5
+            {% else %}
+                5
+            {% endif %}
+            </td>
+            </tr>
+    {% endfor %}
+
+  </table>
+{% endblock %}
+

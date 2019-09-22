@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>E-Log Station</title>
+    <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">
+
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="{{ url_for('auth.home') }}">E-Log Station</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+          <li><a href="/adminpanel">Admin</a></li>
+          <li><a href="/checklog/500">Logbook</a></li>
+          <li><a href="{{ url_for('auth.home_admin') }}">Map</a></li>
+          <li><a href="{{ url_for('auth.home_admin') }}">Documents</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+
+{% block metarefresh %} <meta http-equiv="refresh" content="10" > {% endblock %}
+  </head>
+  <body>
+{% block content %}
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Driver Status for {{datelog}}</h2>
+    <div >
+      <div >
+        <div >
+          <h2>{{state}}</h2>
+
+        </div>    
+      </div>
+    </div>
+
+    <form class="form-horizontal" action="/checklog/500" method="POST">
+      <div >
+        <label for="date">Log Date</label>
+        <input name="datefrom" id="date" type="date">
+      </div>
+      <div>
+        <label for="date">RPM</label>
+        {{ elog.rpm}}
+      </div>
+
+      <div>
+      {{elog.submit(class= "btn btn-primary btn-clock")}}
+        
+      </div>
+      </form>
+       
+      
+    <form class="form-horizontal" action="/checklog/500" method="POST">
+      <div class="col-sm-3">
+
+        {{ elog.ondutydriving(class="btn btn-primary btn-block")}}
+ 
+        {{ elog.ondutynotdriving(class="btn btn-primary btn-block")}}
+
+        {{ elog.ondutysleeping(class="btn btn-primary btn-block")}}
+
+        {{ elog.offduty(class="btn btn-primary btn-block")}}
+      </div>
+         
+      </form>
+
+{% endblock %}
+<body>
+{% block tail_js%}
+
+  <div id="myDiv" style="width: 1000px; height: 500px;"><!-- Plotly chart will be drawn inside this DIV --></div>
+   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script>
+
+  var data = [
+    {
+      x: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40],
+      y: {{data}},
+      type: 'scatter'
+    }
+  ];
+
+  Plotly.newPlot('myDiv', data);
+
+  </script>
+
+{% endblock %}

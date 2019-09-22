@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+      {% block content %}
+      <div class="top-pad">
+      <form
+      method="POST"
+      action="/trucks/createtruck"
+      role="form">
+      {{ form.csrf_token }}
+      <div class="form-group">{{ form.unit.label }}: {{ form.unit() }}</div>
+      <div class="form-group">{{ form.LicensePlate.label }}: {{ form.LicensePlate() }}</div>
+      <div class="form-group">{{ form.State_province.label }}: {{ form.State_province() }}</div>
+      <div class="form-group">{{ form.VIN.label }}: {{ form.VIN() }}</div>
+      <button type="submit" class="btn btn-default">Submit</button>
+
+      </form>
+      </div>
+      {% endblock %}

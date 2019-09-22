@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Leaflet OSRM Example</title>
+    <link href="{{ url_for('static', filename='dist/index.css') }}" rel="stylesheet" type="text/css">  
+    <link href="{{ url_for('static', filename='dist/leaflet-routing-machine.css') }}" rel="stylesheet" type="text/css">  
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css" />
+</head>
+<body>
+    <div id="map" ></div>
+
+    <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+    <script src="{{ url_for('static', filename='dist/leaflet-routing-machine.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/Control.Geocoder.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/config.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/index.js') }}"></script>    
+
+</body>
+</html>

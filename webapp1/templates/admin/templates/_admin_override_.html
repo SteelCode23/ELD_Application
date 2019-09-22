@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>E-Log Station Admin</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css">
+
+
+    <!-- Custom fonts for this template -->
+
+    <link href="{{ url_for('static', filename='vendor/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css">
+
+    <!-- Plugin CSS -->
+
+    <link href="{{ url_for('static', filename='vendor/datatables/dataTables.bootstrap4.css') }}" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+
+    <link href="{{ url_for('static', filename='css/sb-admin.css') }}" rel="stylesheet" type="text/css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script type="text/javascript"
+  src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript">
+  var $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+</script>
+    <script>
+    var a = 1;
+    var b = 1;
+    var c = 1;
+    var d = 1;
+
+    function myFunction1() {
+    document.getElementById("demo1").innerHTML = "On Duty";
+    a = 2;
+    }
+    function myFunction2() {
+    document.getElementById("demo2").innerHTML = "Off Duty";
+    b = 2;
+    }
+    function myFunction3() {
+    document.getElementById("demo3").innerHTML = "On Duty Not Driving";
+    c = 2;
+    }
+    function myFunction4() {
+    document.getElementById("demo4").innerHTML = "Off Duty Sleeping";
+    d = 2;
+    }
+    </script>
+    <script type="text/javascript">
+  $(function() {
+    var driving = function(e) {
+      $.getJSON($SCRIPT_ROOT + '/logs/DRIVING', {
+        a: $('input[name="a"]').val(),
+        b: $('input[name="b"]').val()
+      }, function(data) {
+        $('#result').text(data.result);
+        $('input[name=a]').focus().select();
+      });
+      return false;
+    };
+    $('a#drive').bind('click', driving);
+    $('input[type=text]').bind('keydown', function(e) {
+      if (e.keyCode == 13) {
+        submit_form(e);
+      }
+    });
+    $('input[name=a]').focus();
+  });
+</script>
+
+<script type="text/javascript">
+  $(function() {
+    var onduty = function(e) {
+      $.getJSON($SCRIPT_ROOT + '/logs/ONDUTY', {
+        a: $('input[name="a"]').val(),
+        b: $('input[name="b"]').val()
+      }, function(data) {
+        $('#result').text(data.result);
+        $('input[name=a]').focus().select();
+      });
+      return false;
+    };
+    $('a#on').bind('click', onduty);
+    $('input[type=text]').bind('keydown', function(e) {
+      if (e.keyCode == 13) {
+        submit_form(e);
+      }
+    });
+    $('input[name=a]').focus();
+  });
+</script>
+
+
+<script type="text/javascript">
+  $(function() {
+    var sleeping = function(e) {
+      $.getJSON($SCRIPT_ROOT + '/logs/SLEEPING', {
+        a: $('input[name="a"]').val(),
+        b: $('input[name="b"]').val()
+      }, function(data) {
+        $('#result').text(data.result);
+        $('input[name=a]').focus().select();
+      });
+      return false;
+    };
+    $('a#sleep').bind('click', sleeping);
+    $('input[type=text]').bind('keydown', function(e) {
+      if (e.keyCode == 13) {
+        submit_form(e);
+      }
+    });
+    $('input[name=a]').focus();
+  });
+</script>
+
+
+<script type="text/javascript">
+  $(function() {
+    var sleeping = function(e) {
+      $.getJSON($SCRIPT_ROOT + '/logs/authorized', {
+        a: $('input[name="a"]').val(),
+        b: $('input[name="b"]').val()
+      }, function(data) {
+        $('#result').text(data.result);
+        $('input[name=a]').focus().select();
+      });
+      return false;
+    };
+    $('a#sleep').bind('click', authorized);
+    $('input[type=text]').bind('keydown', function(e) {
+      if (e.keyCode == 13) {
+        submit_form(e);
+      }
+    });
+    $('input[name=a]').focus();
+  });
+</script>
+
+
+
+<script type="text/javascript">
+  $(function() {
+    var offduty = function(e) {
+      $.getJSON($SCRIPT_ROOT + '/logs/OFFDUTY', {
+        a: $('input[name="a"]').val(),
+        b: $('input[name="b"]').val()
+      }, function(data) {
+        $('#result').text(data.result);
+        $('input[name=a]').focus().select();
+      });
+      return false;
+    };
+    $('a#off').bind('click', offduty);
+    $('input[type=text]').bind('keydown', function(e) {
+      if (e.keyCode == 13) {
+        offduty(e);
+      }
+    });
+    $('input[name=a]').focus();
+  });
+</script>
+<script type="text/javascript">
+  $(function() {
+    var test = function(e) {
+      $.getJSON($SCRIPT_ROOT + '/logs/loadtest', {
+        a: $('input[name="a"]').val(),
+        b: $('input[name="b"]').val()
+      }, function(data) {
+        $('#result').text(data.result);
+        $('input[name=a]').focus().select();
+      });
+      return false;
+    };
+    $('a#test').bind('click', test);
+    $('input[type=text]').bind('keydown', function(e) {
+      if (e.keyCode == 13) {
+        test(e);
+      }
+    });
+    $('input[name=a]').focus();
+  });
+</script>
+                <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+            <script>
+              $(document).ready(function () {
+
+                $("#btnSave").click(
+                function () {
+                    AlertSave();
+                }
+                );
+                });
+
+                function AlertSave() {
+                alert("Alert Message OnClick");
+                }
+
+
+            </script>
+
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script>
+      var a = 1;
+      var b = 1;
+      var c = 1;
+      var d = 1;
+
+      function myFunction1() {
+      document.getElementById("demo1").innerHTML = "On Duty";
+      a = 2;
+      }
+      function myFunction2() {
+      document.getElementById("demo2").innerHTML = "Off Duty";
+      b = 2;
+      }
+      function myFunction3() {
+      document.getElementById("demo3").innerHTML = "On Duty Not Driving";
+      c = 2;
+      }
+      function myFunction4() {
+      document.getElementById("demo4").innerHTML = "Off Duty Sleeping";
+      d = 2;
+      }
+    </script>
+
+</head>
+
+<body id="page-top">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar static-top navbar-toggleable-md navbar-inverse bg-inverse">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarExample" aria-controls="navbarExample" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img height = 40, width = 40 src = '/static/img/LOGO.PNG'</img></a>
+        <div class="collapse navbar-collapse" id="navbarExample">
+Q
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/"><i class="fa fa-fw fa-sign-out"></i> Home</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="content-wrapper py-3">
+
+        <div class="container-fluid">
+
+            <!-- Breadcrumbs -->
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
+                <li class="breadcrumb-item active">My Dashboard</li>
+            </ol>
+
+            <!-- Icon Cards -->
+
+            {% block body %}{% endblock %}
+            {% block content %}{% endblock %}
+
+            <div class="row">
+
+                <div class="col-lg-8">
+
+                    <!-- Card Columns Example Social Feed -->
+
+                        </div>
+
+                        <!-- Example Social Card -->
+
+
+                    </div>
+                    <!-- /Card Columns -->
+
+                </div>
+
+            </div>
+
+            <!-- Example Tables Card -->
+
+        </div>
+        <!-- /.container-fluid -->
+
+    </div>
+    <!-- /.content-wrapper -->
+
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+    </a>
+
+    <!-- Bootstrap core JavaScript -->
+
+    <script src="{{ url_for('static', filename='vendor/jquery/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='vendor/tether/tether.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.min.js') }}"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="{{ url_for('static', filename='vendor/jquery-easing/jquery.easing.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='vendor/chart.js/Chart.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='vendor/datatables/jquery.dataTables.js') }}"></script>
+    <script src="{{ url_for('static', filename='vendor/datatables/dataTables.bootstrap4.js') }}"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="{{ url_for('static', filename='js/sb-admin.min.js') }}"></script>
+
+</body>
+
+</html>

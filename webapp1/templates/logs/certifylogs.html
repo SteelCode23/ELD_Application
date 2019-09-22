@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content %}
+        <div class="container-fluid">
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <p>I hereby certify that my data entries and my record of duty status for this 24-hour period are true
+        and correct.</p>
+                <div class="col-xl-3 col-sm-6 mb-3">
+                        <div class="card-block">                        
+                            <div class="mr-5">
+                            <a href=/logs/certifylogsaccept>  {{ certify.agree(class="btn btn-success btn-block")}} </a>
+                            </div>
+                        </div>
+                </div>     
+                <div class="col-xl-3 col-sm-6 mb-3">
+                        <div class="card-block">
+                            <div class="mr-5">
+                            <a href=/logs/showlogs>  {{ certify.disagree(class="btn btn-danger btn-block")}} </a>
+                            </div>
+                        </div>
+                </div>     
+{% endblock %}

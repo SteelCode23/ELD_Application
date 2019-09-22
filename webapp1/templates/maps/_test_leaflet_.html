@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Leaflet Essentials</title>
+
+</head>
+<body>
+
+    <link rel="stylesheet" href="C:/Projects/ELOGSTATION/webapp/static/js/leaflet.css"0.7.3 />
+    <script src="C:/Projects/ELOGSTATION/webapp/static/js/leaflet.js"></script>
+    <div id="map" style="width: 600px; height: 400px"></div>
+    <script>
+        var map = L.map('map', {
+        center: [42.29512438404255, -82.99271916595744],
+        zoom: 10
+    });
+    L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png').addTo(map);
+    </script>
+
+
+</body>
+</html>

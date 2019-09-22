@@ -1,0 +1,215 @@
+{% extends 'base.html' %}
+{% block body %}
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script> 
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+      <script>
+    google.charts.load('current', {'packages':['corechart', 'line']});
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+
+      var button = document.getElementById('change-chart');
+      var chartDiv = document.getElementById('chart_div');
+
+      var data = new google.visualization.DataTable();
+      data.addColumn('number', '');
+      data.addColumn('number', '');
+      data.addRows({{logdata}});
+
+      var mirrorLogOptions = {
+        title: 'Driver Logs',
+        legend: 'none',
+        pointSize: 5,
+        width: 900,
+        height: 500,
+        hAxis: {
+          gridlines: {
+            count: -1
+          }
+        },
+        vAxis: {
+          scaleType: 'mirrorLog',
+          ticks: [{ v: 1, f: 'On Duty'}, { v: 2, f: 'Driving'},{ v: 3, f: 'Off Duty'}, { v: 4, f: 'Sleeper'}]
+        }
+      };
+
+      function drawLinearChart() {
+        var linearChart = new google.visualization.LineChart(chartDiv);
+        linearChart.draw(data, linearOptions);
+        button.innerText = 'Change to Mirror Log Scale';
+        button.onclick = drawMirrorLogChart;
+      }
+function loadApi() {
+  google.load("visualization", "1", {"callback" : pageLoaded});
+}
+      function drawMirrorLogChart() {
+        var mirrorLogChart = new google.visualization.LineChart(chartDiv);
+        mirrorLogChart.draw(data, mirrorLogOptions);
+        button.innerText = 'Change to Linear Scale';
+        button.onclick = drawLinearChart;
+      }
+
+      drawMirrorLogChart();
+    }
+    </script>
+<div class = "table-responsive">
+<table class="table">
+
+<td><p>Driver Name</p></td>
+    <td><p>Truck Number</p></td>
+<td><p>VIN</p></td>
+<td><p>ETC</p></td>
+</table>
+</div>
+     
+<b><p>Status</p></b>
+<span id="result">?</span>
+
+
+
+{% endblock %}
+{% block content %}
+        <div class="container-fluid">
+            <!-- Breadcrumbs -->
+
+
+            <!-- Icon Cards -->
+            <div class="row">
+                <div>
+                    <div class = "table-responsive">
+                        <table class="table">
+                            <td>
+                            {% if current_status == "onduty" %}
+                            <a href=# id="drive" >{{ elog.ondutydriving(class="btn btn-danger btn-block")}}</a>
+                            {% else %}
+                            <a href=# id="drive" >{{ elog.ondutydriving(class="btn btn-danger btn-success")}}</a>
+                            {% endif %}
+                            </td>
+                            <td>
+                            {% if current_status == "notdriving" %}
+                            <a href=#  id="on">  {{ elog.ondutynotdriving(class="btn btn-danger btn-block")}}</a>
+                            {% else %}
+                            <a href=#  id="on">  {{ elog.ondutynotdriving(class="btn btn-danger btn-success")}}</a>
+                            {% endif %}
+                            </td>
+                            <td>
+                            {% if current_status == "onduty" %}
+                            <a href=#  id="sleep">  {{ elog.ondutysleeping(class="btn btn-danger btn-block")}}</a>
+                            {% else %}
+                            <a href=#  id="sleep">  {{ elog.ondutysleeping(class="btn btn-danger btn-success")}}</a>
+                            {% endif %}
+                            </td>
+                            <td>
+                            {% if current_status == "offduty" %}
+                            <a href=#  id="off">  {{ elog.offduty(class="btn btn-danger btn-block")}}</a>
+                            {% else %}
+                            <a href=#  id="off">  {{ elog.offduty(class="btn btn-danger btn-success")}}</a>
+                            {% endif %}
+                            </td>
+                            <td>
+                            {% if current_status == "offduty" %}
+                            <a href=#  id="off">  {{ elog.YardMoves(class="btn btn-danger btn-block")}}</a>
+                            {% else %}
+                            <a href=#  id="off">  {{ elog.YardMoves(class="btn btn-danger btn-success")}}</a>
+                            {% endif %}
+                            </td>
+                            <td>
+                            {% if current_status == "offduty" %}
+                            <a href=#  id="authorized">  {{ elog.Authorized(class="btn btn-danger btn-block")}}</a>
+                            {% else %}
+                            <a href=#  id="authorized">  {{ elog.Authorized(class="btn btn-danger btn-success")}}</a>
+                            </td>
+                            <td>
+                            {% endif %}
+                            {% if current_status == "offduty" %}
+                            <a href=#  id="off">  {{ elog.Cleared(class="btn btn-danger btn-block")}}</a>
+                            {% else %}
+                            <a href=#  id="off">  {{ elog.Cleared(class="btn btn-danger btn-success")}}</a>
+                            {% endif %}
+                            </td>
+
+                        </table>
+                </div>
+            </div>
+            </div>
+
+            <!-- Area Chart Example -->
+
+    <form class="form-horizontal" action="/logs/showlogs" method="POST">
+      <div >
+        <label for="date">Log Date</label>
+        <input name="datefrom" id="date" type="date">
+        <button type="submit">Search</button>
+        <button type="submit">Show Last 14 Days</button>
+      </div>
+      </form>
+            <div> Currently showing {{ datedata  }}</div>
+
+            <div class="card mb-3">
+                <div class="card-header">
+                    <i class="fa fa-area-chart"></i> Daily Log
+                </div>
+
+                <div  style="width: 1500px; height: 500px;"  id="chart_div"></div>
+
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered">
+                <thead>
+                <td><b>Time</b></td>
+                <td><b>Location</b></td>
+                <td><b>Odometer</b></td>
+                <td><b>Engine Hours</b></td>
+                <td><b>Event Type/Status</b></td>
+                <td><b>Origin</b></td>
+                <td><b>Test</b></td>
+                <td><b>EDIT</b></td>
+                </thead>
+                {% for i in events_log %}
+                <tr>
+                <td>{{i.Event_Time}} </td>
+                <td>{{i.Event_Latitude}} </td>
+                <td>{{i.Odometer}} </td>
+                <td>{{i.Elapsed_Engine_Hours}} </td>
+                <td>{{i.Event_Type}} </td>
+                <td>{{i.Event_Record_Origin}} </td>
+                    {% if i[6] == '3' %}
+                    <td>Driving </td>
+                    {% elif i[6] == '4'%}
+                    <td>On Duty Not Driving</td>
+                    {% elif i[6] == '1'%}
+                    <td>On Duty Sleeping </td>
+                    {% elif i[6] == '2'%}
+                    <td>Off Duty </td>
+                    {% else %}
+                    <td>{{i[6]}} </td>
+                    {% endif %}
+                <td><a href="/admin/events_log/?flt2_3={{date_to_redirect_to_edit}}+00%3A00%3A00+to+{{date_to_redirect_to_edit}}+23%3A59%3A59" class="btn btn-info btn-xs">EDIT LOGS</a></td>
+                </tr>
+                {% endfor %}
+
+                </table>
+            </div>
+            <div class="row">
+
+                <div class="col-lg-8">
+                <div class="col-xl-3 col-sm-6 mb-3">
+
+                    <div class="card-block">                         
+                        <div class="mr-5">
+                            <a href=/logs/certify>   {{ elog.certify(class="btn btn-success btn-block")}} </a>
+                        </div>
+                    </div>    
+                </div>       
+
+                </div>
+
+            </div>
+
+            <!-- Example Tables Card -->
+     
+        </div>
+        <!-- /.container-fluid -->
+
+{% endblock %}

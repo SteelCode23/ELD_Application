@@ -1,0 +1,108 @@
+{% extends 'base.html' %}
+{% block body %}
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>        
+<p>Status</p>
+<span id="result">?</span>
+
+
+{% endblock %}
+{% block content %}
+        <div class="container-fluid">
+            <!-- Breadcrumbs -->
+
+
+            <!-- Icon Cards -->
+            <div class="row">
+                <div class="col-xl-3 col-sm-6 mb-3">
+
+                        <div class="card-block">
+
+                            <div class="mr-5">
+                                <a href=# id="drive" >{{ elog.ondutydriving(class="btn btn-danger btn-block")}}</a>
+                            </div>
+                        </div>
+
+                </div>
+                <div class="col-xl-3 col-sm-6 mb-3">
+
+                        <div class="card-block">
+
+                            <div class="mr-5">
+                            <a href=#  id="on">  {{ elog.ondutynotdriving(class="btn btn-danger btn-block")}}</a>
+                            </div>
+                        </div>
+
+                </div>
+                <div class="col-xl-3 col-sm-6 mb-3">
+
+                        <div class="card-block">
+                            <div class="mr-5">
+                            <a href=#  id="sleep">   {{ elog.ondutysleeping(class="btn btn-danger btn-block")}}</a>    
+                            </div>
+                        </div>
+
+                </div>
+                <div class="col-xl-3 col-sm-6 mb-3">
+
+                        <div class="card-block">
+
+
+                            
+                            <div class="mr-5">
+                            <a href=# id="off">   {{ elog.offduty(class="btn btn-danger btn-block")}} </a>
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+
+            <!-- Area Chart Example -->
+
+    <form class="form-horizontal" action="/logs/showlogs" method="POST">
+      <div >
+        <label for="date">Log Date</label>
+        <input name="datefrom" id="date" type="date">
+        <button type="submit">Search</button>
+      </div>
+      </form>
+
+            <div class="card mb-3">
+                <div class="card-header">
+                    <i class="fa fa-area-chart"></i> Daily Log
+                </div>
+
+                <div  style="width: 1500px; height: 500px;"  id="myDiv">
+                <script>
+
+                    var data = [
+                    {
+                    x: [1, 2, 2, 3, 3, 4, 5, 6, 7, 7, 8, 9, 10],
+                    y: [0, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0],
+
+                    type: 'scatter'
+                    }
+                    ];
+
+                Plotly.newPlot('myDiv', data);
+
+                </script></div>
+
+                <div class="card-footer small text-muted">
+                    Updated yesterday at 11:59 PM
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-8">
+
+                </div>
+
+            </div>
+
+            <!-- Example Tables Card -->
+     
+        </div>
+        <!-- /.container-fluid -->
+
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block content %}
+<style>body{padding: 0;margin: 0;    }html, body, #map {height: 100%;        }</style>
+<link rel="stylesheet" href="{{ url_for('static', filename='js/leaflet.css') }}" type="text/css">
+    <script src="{{ url_for('static', filename='js/leaflet.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/animatedmarker.js') }}"></script>
+    <div id="map" style="width: 600px; height: 400px"></div>
+    <script>
+        var map = L.map('map', {
+        center: [42.29512438404255, -82.99271916595744],
+        zoom: 10
+    });
+    L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png').addTo(map);
+    //var myMarker = L.marker([42.29512438404255, -82.99271916595744]).bindPopup("<h1>My Marker</h1><p>Lisa's house</p><ul><li>Info 1</li><li>Info 2</li><li>Info 3</li></ul>").addTo(map);
+    var line = L.polyline([[42.29512438404255, -82.99271916595744],[42.29512438405000, -82.99271916596100],[42.29512438406000, -82.99271916596200],[42.29512438406000, -82.99281916596200],[42.29512438406000, -82.99291916596200],[42.29512438406000, -83.09291916596200]])
+
+    var animatedMarker = L.animatedMarker(line.getLatLngs(),{autoStart: true, distance: 600, interval: 900}).bindPopup("<h1>{{ truck.unit }}</h1><p>{{ truck.unit }}</p><ul><li>{{ truck.License_Plate }}</li><li>{{ truck.State_province }}</li><li>{{ truck.VIN }}</li></ul>");
+    map.addLayer(line);
+    map.addLayer(animatedMarker);
+    function start(){animatedMarker.start();};
+    function stop(){animatedMarker.stop();};
+
+    </script>
+
+    <button onclick="start()">Start</button>
+        <button onclick="stop()">Stop</button>
+    </body>
+{% endblock %}

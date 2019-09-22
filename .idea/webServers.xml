@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c3ed4055-73cb-4220-b8a7-3eca61bffc11" name="ELOGSTATION_PRODUCTION" url="http://52.201.231.166">
+        <fileTransfer host="52.201.231.166" port="22" privateKey="C:\Users\SteelRicciotti\Downloads\CRM.ppk" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

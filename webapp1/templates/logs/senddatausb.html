@@ -1,0 +1,104 @@
+{% extends 'base.html' %}
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script type=text/javascript>
+    $(function() {
+      $('a#calculate').bind('click', function() {
+        $.getJSON('/_add_numbers', {
+          a: $('input[name="a"]').val(),
+          b: $('input[name="b"]').val(),
+          c: $('input[name="c"]').val()
+        }, function(data) {
+          $("#result").text(data.result);
+        });
+        return false;
+      });
+    });
+    </script>
+    <script>
+      var a = 1;
+      var b = 1;
+      var c = 1;
+      var d = 1;
+
+      function myFunction1() {
+      document.getElementById("demo1").innerHTML = "On Duty";
+      a = 2;
+      }
+      function myFunction2() {
+      document.getElementById("demo2").innerHTML = "Off Duty";
+      b = 2;
+      }
+      function myFunction3() {
+      document.getElementById("demo3").innerHTML = "On Duty Not Driving";
+      c = 2;
+      }
+      function myFunction4() {
+      document.getElementById("demo4").innerHTML = "Off Duty Sleeping";
+      d = 2;
+      }
+    </script>
+
+{% block content%}
+
+
+            <!-- Icon Cards -->
+
+            <div>
+            <label for="date">Log Date</label>
+            <input name="c" type="date">
+            <span id="result">?</span>
+            <p><a href="javascript:void();" id="calculate">View Logs</a></form>
+            </div>
+
+            <!-- Area Chart Example -->
+            <div class="card mb-3">
+                <div class="card-header">
+                    <i class="fa fa-area-chart"></i> Daily Log
+                </div>
+
+                <div  style="width: 1500px; height: 500px;"  id="myDiv">
+                <script>
+                    xdata = {{state}}
+                    firstdata = {{timestate}}
+
+
+                    var data = [
+                    {
+                    x: xdata,
+                    y: firstdata,
+                    type: 'scatter'
+                    }
+                    ];
+
+                Plotly.newPlot('myDiv', data);
+
+                </script></div>
+
+                <div class="card-footer small text-muted">
+                    Updated yesterday at 11:59 PM
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-8">
+
+                    <!-- Card Columns Example Social Feed -->
+                            <div class="card-footer small text-muted">
+                                Posted 32 mins ago
+                            </div>
+                        </div>
+
+                        <!-- Example Social Card -->
+                        
+
+                    </div>
+                    <!-- /Card Columns -->
+
+                </div>
+
+            </div>
+
+  {% endblock %}

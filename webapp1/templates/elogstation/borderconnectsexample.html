@@ -1,0 +1,942 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link rel="icon" type="image/png" href="/E-logstation/images/favicon.png" />
+        <meta name="description" content="E-logstation offers many free plans for small trucking companies to check their PARS and send ACE and ACI eManifests. Register for a free 30 day software trial!" />
+    <title>E-Logstation</title>
+    <link rel="stylesheet" type="text/css" href="/E-logstation/css/base-6.5.7.css"
+        media="screen" />
+    <link rel="stylesheet" type="text/css" href="/E-logstation/css/print-6.5.7.css"
+        media="print" />
+        <link rel="stylesheet" type="text/css" href="/E-logstation/skin/bc4/css/color-6.5.7.css"
+              media="screen" />
+    <link href="https://plus.google.com/+E-logstation" rel="publisher" />
+
+    <script src="/E-logstation/js/dropdown-menu.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/E-logstation/js/base-6.5.7.js"></script>
+
+<script type="text/javascript">
+    $jq( document ).ready( function() {
+        $jq( '#sysInfoButton' ).click( function( event ) {
+            event.preventDefault();
+            alert(    "Version: 6.5.7 \n" +
+    ""
+);
+        } );
+
+        $jq( ".registrationButton" ).click( function( event ) {
+                event.preventDefault();
+                $bc.utils.createGenericFormModal( "/E-logstation/registration/registration.wizard.up?loadAsModal=true" );
+        } );
+                $jq( window ).scroll( $bc.menuControl.checkScrollPositionForStickyMenu );
+                //$jq( window ).scroll( checkResizeWidthForStickyMenu );
+
+        $jq( ".searchBoxHeader" ).click( function() {
+            toggleSearchBoxVisibility('');
+        } );
+    } );
+
+    $jq( window ).load( function() {
+        /*var headerHeight = ( $jq( '#pageHeader' ).height() + $jq( '.mainMenu' ).height() + $jq( '.subMainMenu' ).height() );
+        if( headerHeight < $jq( '#fullWidthHeader' ).outerHeight() ) {
+            headerHeight = $jq( '#fullWidthHeader' ).outerHeight();
+        }
+
+
+        $jq( ".topPush" ).height( headerHeight + "px" );*/
+
+            } );
+
+        // Facebook Pixel Code
+        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+                n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+            n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+                document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+        fbq('init', '445453005647067');
+        fbq('track', "PageView");</script>
+    <noscript><img height="1" width="1" style="display:none"
+                   src="https://www.facebook.com/tr?id=445453005647067&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+    <meta name="google-site-verification" content="AlgtRJr069sA0mBKmf7wgGC_0FSMe5EEsI9rL_5fNvc" />
+</head>
+<body id="Website" onload="" style="">
+
+<!-- Bing Remarketing Tracker Begin -->
+<script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5078836"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","//bat.bing.com/bat.js","uetq");</script><noscript><img src="//bat.bing.com/action/0?ti=5078836&Ver=2" height="0" width="0" style="display:none; visibility: hidden;" /></noscript>
+<!-- Bing Remarketing Tracker End -->
+<div id="backgroundContent" class="">
+            <div class="backgroundContentElement" id="1"></div>
+</div>
+<div id="fb-root"></div>
+<script>
+    (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+
+            <div id="trigger" style="clear: both"></div>
+
+
+<div class="wrapper" style="">
+        <div class="topPush"></div>
+        <!-- content -->
+        <div id="Content" class="FixFloat" style="">
+
+    <div style="margin: 0 auto;">
+
+    <form name="form" id="form" class="warnAgainstUnsumbittedChanges" method="POST">
+    <h1 class="servicesHeader" style="color: #1c1d1e; margin-top: 25px; margin-bottom: 20px;">Create Your E-logstation Account</h1>
+
+        <p style="margin-top: 15px; font-size: 16px;">
+        E-logstation offers many <em>free</em> plans for small trucking companies to check their PARS and send ACE and ACI eManifests. Carriers of all sizes get a free 30 day trial! Check your PARS and send ACE eManifests all in one place. You'll be able to get started on E-logstation ACE eManifest today, and PARS checking and ACI eManifest when Canada Customs approves your RNS and ACI applications (typically one or two business days). Signing up takes about 5 minutes.
+        </p>
+
+    <table class="Details">
+    <tr>
+        <td class="Header" colspan="2">Create Your E-Logstation Account</td>
+    </tr>
+    <tr> <td colspan="2" class="SubHeaderDetails">Enter your company's information...</td> </tr>
+    <tr>
+        <td class="FieldName" >Company Name:</td>
+        <td class="FieldValue" style="width: 700px;">
+<span class="HighlightSpan" style="width: 3px; vertical-align: middle; height: 15px; background-color: #003042; ">&nbsp;</span>             <input id="companyNameInputElement" type="text" name="company.name" value="" size="30" maxlength="100" />
+        </td>
+    </tr>
+<tr>
+    <td class="FieldName">Promotion Code:</td>
+    <td class="FieldValue">
+        &nbsp;&nbsp<input type="text" name="company.promotionCode" value="" size="30" maxlength="100"  /> 
+    </td>
+</tr>
+<tr> <td colspan="2" class="SubHeaderDetails">Enter your company's head office or main terminal...</td> </tr>
+
+<tr>
+    <td class="FieldName" style="width:  200px;" >Address:</td>
+    <td class="FieldValue">
+<span class="HighlightSpan" style="width: 3px; vertical-align: middle; height: 15px; background-color: #003042; ">&nbsp;</span>         <input type="text" name="company.terminals.headOffice.address.addressLine1" id="headOfficeAddressLine1" value=""  size="30" maxlength="100" />
+    </td>
+</tr>
+
+<tr>
+    <td class="FieldName">City:</td>
+    <td class="FieldValue">
+<span class="HighlightSpan" style="width: 3px; vertical-align: middle; height: 15px; background-color: #003042; ">&nbsp;</span>         <input type="text" name="company.terminals.headOffice.address.cityName" id="headOfficeAddressCity" value=""  size="30" maxlength="100" />
+    </td>
+</tr>
+
+
+<tr>
+    <td class="FieldName">Province/State:</td>
+    <td class="FieldValue">
+<span class="HighlightSpan" style="width: 3px; vertical-align: middle; height: 15px; background-color: #003042; ">&nbsp;</span>         <select class="SelectControl" name="stateProvinceId" id="stateProvinceId" size="1" style="width:200px;" >
+                <option value="2"
+                        >Alabama </option>
+                <option value="1"
+                        >Alaska </option>
+                <option value="87"
+                        >Alberta </option>
+                <option value="4"
+                        >Arizona </option>
+                <option value="3"
+                        >Arkansas </option>
+                <option value="88"
+                        >British Columbia </option>
+                <option value="5"
+                        >California </option>
+                <option value="6"
+                        >Colorado </option>
+                <option value="7"
+                        >Connecticut </option>
+                <option value="9"
+                        >Delaware </option>
+                <option value="8"
+                        >District of Columbia </option>
+                <option value="10"
+                        >Florida </option>
+                <option value="11"
+                        >Georgia </option>
+                <option value="12"
+                        >Guam </option>
+                <option value="13"
+                        >Hawaii </option>
+                <option value="15"
+                        >Idaho </option>
+                <option value="16"
+                        >Illinois </option>
+                <option value="17"
+                        >Indiana </option>
+                <option value="14"
+                        >Iowa </option>
+                <option value="18"
+                        >Kansas </option>
+                <option value="19"
+                        >Kentucky </option>
+                <option value="20"
+                        >Louisiana </option>
+                <option value="23"
+                        >Maine </option>
+                <option value="89"
+                        >Manitoba </option>
+                <option value="22"
+                        >Maryland </option>
+                <option value="21"
+                        >Massachusetts </option>
+                <option value="24"
+                        >Michigan </option>
+                <option value="25"
+                        >Minnesota </option>
+                <option value="27"
+                        >Mississippi </option>
+                <option value="26"
+                        >Missouri </option>
+                <option value="28"
+                        >Montana </option>
+                <option value="31"
+                        >Nebraska </option>
+                <option value="35"
+                        >Nevada </option>
+                <option value="90"
+                        >New Brunswick </option>
+                <option value="91"
+                        >New Foundland and Labrador </option>
+                <option value="32"
+                        >New Hampshire </option>
+                <option value="33"
+                        >New Jersey </option>
+                <option value="34"
+                        >New Mexico </option>
+                <option value="36"
+                        >New York </option>
+                <option value="1639"
+                        >No Plate </option>
+                <option value="29"
+                        >North Carolina </option>
+                <option value="30"
+                        >North Dakota </option>
+                <option value="93"
+                        >Northwest Territories </option>
+                <option value="92"
+                        >Nova Scotia </option>
+                <option value="94"
+                        >Nunavut </option>
+                <option value="37"
+                        >Ohio </option>
+                <option value="38"
+                        >Oklahoma </option>
+                <option value="95"
+                        selected="selected"
+                        >Ontario </option>
+                <option value="39"
+                        >Oregon </option>
+                <option value="40"
+                        >Pennsylvania </option>
+                <option value="96"
+                        >Prince Edward Island </option>
+                <option value="41"
+                        >Puerto Rico </option>
+                <option value="97"
+                        >Quebec </option>
+                <option value="42"
+                        >Rhode Island </option>
+                <option value="98"
+                        >Saskatchewan </option>
+                <option value="43"
+                        >South Carolina </option>
+                <option value="44"
+                        >South Dakota </option>
+                <option value="45"
+                        >Tennessee </option>
+                <option value="46"
+                        >Texas </option>
+                <option value="47"
+                        >Utah </option>
+                <option value="50"
+                        >Vermont </option>
+                <option value="48"
+                        >Virginia </option>
+                <option value="49"
+                        >Virgin Islands </option>
+                <option value="51"
+                        >Washington </option>
+                <option value="53"
+                        >West Virginia </option>
+                <option value="52"
+                        >Wisconsin </option>
+                <option value="54"
+                        >Wyoming </option>
+                <option value="99"
+                        >Yukon Territory </option>
+        </select>
+    </td>
+</tr>
+
+<tr>
+    <td class="FieldName">Postal/Zip Code:</td>
+    <td class="FieldValue">
+<span class="HighlightSpan" style="width: 3px; vertical-align: middle; height: 15px; background-color: #003042; ">&nbsp;</span>         <input style="text-transform:uppercase;" type="text" name="company.terminals.headOffice.address.postalCode" id="headOfficeAddressPostalCode" value=""  size="30" maxlength="8" />
+    </td>
+</tr>
+
+<tr>
+    <td class="FieldName"></td>
+    <td class="FieldValue">
+<span class="HighlightSpan" style="width: 3px; vertical-align: middle; height: 15px; background-color: transparent; ">&nbsp;</span>         <input type="checkbox" id="billingSameAsMain" name="billingSameAsMain" checked="checked" value="true" /> <span>Use this address for billing</span>
+    </td>
+</tr>
+
+<tr>
+    <td class="FieldName">Phone Number:</td>
+    <td class="FieldValue">
+<span class="HighlightSpan" style="width: 3px; vertical-align: middle; height: 15px; background-color: #003042; ">&nbsp;</span>         <input type="text" name="company.terminals.headOffice.phoneNumber" id="headOfficePhoneNumber" value=""  size="30" maxlength="15" />
+        (format 555-555-5555)
+    </td>
+</tr>
+
+<tr>
+    <td class="FieldName">Fax Number:</td>
+    <td class="FieldValue">
+        &nbsp;&nbsp<input type="text" name="company.terminals.headOffice.faxNumber" value=""  size="30" maxlength="20"  />
+        (format 555-555-5555)
+    </td>
+</tr>
+
+<tr>
+    <td class="FieldName">Time Zone:</td>
+    <td class="FieldValue">
+<span class="HighlightSpan" style="width: 3px; vertical-align: middle; height: 15px; background-color: #003042; ">&nbsp;</span>         <select class="SelectControl" name="timeZoneId" size="1" style="width:180px;">
+                <option value="-09:00"
+
+
+                        >Alaska (US)</option>
+                <option value="-08:00"
+
+
+                        >Pacific Time</option>
+                <option value="-07:00"
+
+
+                        >Mountain Time</option>
+                <option value="-06:00"
+
+
+                        >Central Time</option>
+                <option value="-05:00"
+
+                        selected="selected"
+
+                        >Eastern Time</option>
+                <option value="-04:00"
+
+
+                        >Atlantic Time (Canada)</option>
+                <option value="-03:30"
+
+
+                        >Newfoundland (Canada)</option>
+        </select>
+    </td>
+</tr>
+
+<tr>
+    <td class="FieldName">Billing Email:</td>
+    <td class="FieldValue">
+<span class="HighlightSpan" style="width: 3px; vertical-align: middle; height: 15px; background-color: transparent; ">&nbsp;</span>         <input type="email" id="billingEmailInput" name="billingContactEmail" value=""  size="30" maxlength="100" /><br/>
+        <label for="sendPhysicalInvoiceCopy">I would also like to receive my invoice by physical mail</label><input type="checkbox" id="sendPhysicalInvoiceCopy" name="sendPhysicalInvoiceCopy" value="yes" />
+    </td>
+</tr>
+
+<tr class="billingDetails">
+    <td class="FieldName">Billing Address:</td>
+    <td class="FieldValue">
+<span class="HighlightSpan" style="width: 3px; vertical-align: middle; height: 15px; background-color: #003042; ">&nbsp;</span>         <input type="text" name="company.billingDetails.billingAddress.addressLine1" value=""  size="30" maxlength="100"  />
+    </td>
+</tr>
+
+<tr class="billingDetails">
+    <td class="FieldName">Billing City:</td>
+    <td class="FieldValue">
+<span class="HighlightSpan" style="width: 3px; vertical-align: middle; height: 15px; background-color: #003042; ">&nbsp;</span>         <input type="text" name="company.billingDetails.billingAddress.cityName" value=""  size="30" maxlength="100"  />
+    </td>
+</tr>
+
+<tr class="billingDetails">
+    <td class="FieldName">Billing Province/State:</td>
+    <td class="FieldValue">
+<span class="HighlightSpan" style="width: 3px; vertical-align: middle; height: 15px; background-color: #003042; ">&nbsp;</span>         <select class="SelectControl" name="billingStateProvinceId" size="1" style="width:200px;">
+                <option value="2"
+                        >Alabama </option>
+                <option value="1"
+                        >Alaska </option>
+                <option value="87"
+                        >Alberta </option>
+                <option value="4"
+                        >Arizona </option>
+                <option value="3"
+                        >Arkansas </option>
+                <option value="88"
+                        >British Columbia </option>
+                <option value="5"
+                        >California </option>
+                <option value="6"
+                        >Colorado </option>
+                <option value="7"
+                        >Connecticut </option>
+                <option value="9"
+                        >Delaware </option>
+                <option value="8"
+                        >District of Columbia </option>
+                <option value="10"
+                        >Florida </option>
+                <option value="11"
+                        >Georgia </option>
+                <option value="12"
+                        >Guam </option>
+                <option value="13"
+                        >Hawaii </option>
+                <option value="15"
+                        >Idaho </option>
+                <option value="16"
+                        >Illinois </option>
+                <option value="17"
+                        >Indiana </option>
+                <option value="14"
+                        >Iowa </option>
+                <option value="18"
+                        >Kansas </option>
+                <option value="19"
+                        >Kentucky </option>
+                <option value="20"
+                        >Louisiana </option>
+                <option value="23"
+                        >Maine </option>
+                <option value="89"
+                        >Manitoba </option>
+                <option value="22"
+                        >Maryland </option>
+                <option value="21"
+                        >Massachusetts </option>
+                <option value="24"
+                        >Michigan </option>
+                <option value="25"
+                        >Minnesota </option>
+                <option value="27"
+                        >Mississippi </option>
+                <option value="26"
+                        >Missouri </option>
+                <option value="28"
+                        >Montana </option>
+                <option value="31"
+                        >Nebraska </option>
+                <option value="35"
+                        >Nevada </option>
+                <option value="90"
+                        >New Brunswick </option>
+                <option value="91"
+                        >New Foundland and Labrador </option>
+                <option value="32"
+                        >New Hampshire </option>
+                <option value="33"
+                        >New Jersey </option>
+                <option value="34"
+                        >New Mexico </option>
+                <option value="36"
+                        >New York </option>
+                <option value="1639"
+                        >No Plate </option>
+                <option value="29"
+                        >North Carolina </option>
+                <option value="30"
+                        >North Dakota </option>
+                <option value="93"
+                        >Northwest Territories </option>
+                <option value="92"
+                        >Nova Scotia </option>
+                <option value="94"
+                        >Nunavut </option>
+                <option value="37"
+                        >Ohio </option>
+                <option value="38"
+                        >Oklahoma </option>
+                <option value="95"
+                        selected="selected"
+                        >Ontario </option>
+                <option value="39"
+                        >Oregon </option>
+                <option value="40"
+                        >Pennsylvania </option>
+                <option value="96"
+                        >Prince Edward Island </option>
+                <option value="41"
+                        >Puerto Rico </option>
+                <option value="97"
+                        >Quebec </option>
+                <option value="42"
+                        >Rhode Island </option>
+                <option value="98"
+                        >Saskatchewan </option>
+                <option value="43"
+                        >South Carolina </option>
+                <option value="44"
+                        >South Dakota </option>
+                <option value="45"
+                        >Tennessee </option>
+                <option value="46"
+                        >Texas </option>
+                <option value="47"
+                        >Utah </option>
+                <option value="50"
+                        >Vermont </option>
+                <option value="48"
+                        >Virginia </option>
+                <option value="49"
+                        >Virgin Islands </option>
+                <option value="51"
+                        >Washington </option>
+                <option value="53"
+                        >West Virginia </option>
+                <option value="52"
+                        >Wisconsin </option>
+                <option value="54"
+                        >Wyoming </option>
+                <option value="99"
+                        >Yukon Territory </option>
+        </select>
+    </td>
+</tr>
+
+<tr class="billingDetails">
+    <td class="FieldName">Billing Postal/Zip Code:</td>
+    <td class="FieldValue">
+<span class="HighlightSpan" style="width: 3px; vertical-align: middle; height: 15px; background-color: #003042; ">&nbsp;</span>         <input style="text-transform:uppercase;" type="text" name="company.billingDetails.billingAddress.postalCode" id="billingPostalCode" value=""  size="30" maxlength="20" />
+    </td>
+</tr>
+
+
+<tr>
+    <td colspan="2" class="SubHeaderDetails">Provide your contact information...</td></tr>
+<tr>
+    <td class="FieldName">First Name:</td>
+    <td class="FieldValue">
+<span class="HighlightSpan" style="width: 3px; vertical-align: middle; height: 15px; background-color: #003042; ">&nbsp;</span>         <input type="text" name="person.firstName" value=""  size="30" maxlength="100"  />
+    </td>
+</tr>
+
+<tr>
+    <td class="FieldName">Last Name:</td>
+    <td class="FieldValue">
+<span class="HighlightSpan" style="width: 3px; vertical-align: middle; height: 15px; background-color: #003042; ">&nbsp;</span>         <input type="text" name="person.lastName" value=""  size="30" maxlength="100"  />
+    </td>
+</tr>
+
+<tr>
+    <td class="FieldName">Title:</td>
+    <td class="FieldValue">
+<span class="HighlightSpan" style="width: 3px; vertical-align: middle; height: 15px; background-color: #003042; ">&nbsp;</span>         <input type="text" name="person.title" value=""  size="30" maxlength="100"  />
+    </td>
+</tr>
+
+<tr>
+    <td class="FieldName">Email Address:</td>
+    <td class="FieldValue">
+<span class="HighlightSpan" style="width: 3px; vertical-align: middle; height: 15px; background-color: #003042; ">&nbsp;</span>         <input type="email" id="personEmailAddressInput" name="person.emailAddress" value=""  size="30" maxlength="100"  />
+    </td>
+</tr>
+
+<tr>
+    <td class="FieldName">Phone Number:</td>
+    <td class="FieldValue">
+<span class="HighlightSpan" style="width: 3px; vertical-align: middle; height: 15px; background-color: #003042; ">&nbsp;</span>         <input type="text" name="person.phoneNumber" value=""  size="30" maxlength="20"  />
+        (format 555-555-5555)
+    </td>
+</tr>
+
+<tr>
+    <td class="FieldName">Phone Extension:</td>
+    <td class="FieldValue">
+        &nbsp;&nbsp<input type="text" name="person.phoneExtension" value=""  size="30" maxlength="20"  />
+    </td>
+</tr>
+
+<tr><td colspan="2" class="SubHeaderDetails">Create your user account... </td></tr>
+<tr>
+    <td class="FieldName">Username:</td>
+    <td class="FieldValue">
+<span class="HighlightSpan" style="width: 3px; vertical-align: middle; height: 15px; background-color: #003042; ">&nbsp;</span>         <input type="text" name="person.username" value="" size="30" maxlength="50"  /> (no spaces please)
+    </td>
+</tr>
+
+<tr>
+    <td class="FieldName">Password:</td>
+    <td class="FieldValue">
+<span class="HighlightSpan" style="width: 3px; vertical-align: middle; height: 15px; background-color: #003042; ">&nbsp;</span>         <input
+                type="password"
+                name="person.password"
+                id="password"
+                value=""
+                size="30"
+                maxlength="50"  />
+        <span id="passwordQuality" class="PasswordQualityRed"></span>
+        <div id="passwordQualitySuggestions"></div>
+    </td>
+</tr>
+
+<tr>
+    <td class="FieldName">Re-Type Password:</td>
+    <td class="FieldValue">
+<span class="HighlightSpan" style="width: 3px; vertical-align: middle; height: 15px; background-color: #003042; ">&nbsp;</span>         <input type="password" name="retypePassword" value=""  size="30" maxlength="50"  />
+    </td>
+</tr>
+<tr>
+    <td colspan="2" class="SubFooter">
+        <span class="HighlightSpan" style="width: 3px; vertical-align: middle; height: 15px; background-color: #003042; ">&nbsp;</span>  Required
+         <span style="margin-left: 360px;">
+
+<button
+        type="submit"
+        class="Button"
+    style="; ;"
+    id="finish"
+        
+>
+    <span id="finishText" class="Button"
+          style="">Continue Registration >></span>
+</button>
+         </span>
+    </td>
+</tr>
+
+</table>
+
+</form>
+</div>
+
+<script type="text/javascript">
+    $jq( document ).ready( function() {
+        function uppercase( val )
+        {
+            val.style.textTransform = "uppercase";
+            var temp = val.value.replace( /\s/g, "" );
+            val.value = temp.toString().toUpperCase();
+        }
+
+        function copyAddress() {
+            if( $jq( "#billingSameAsMain" ).is( ":checked" ) ) {
+                overwriteAddress();
+            } else {
+                copyElement( "company.billingDetails.billingAddress.addressLine1", "company.terminals.headOffice.address.addressLine1" );
+            }
+
+        }
+
+        function copyCity() {
+            if( $jq( "#billingSameAsMain" ).is( ":checked" ) ) {
+                overwriteCity()
+            } else {
+                copyElement( "company.billingDetails.billingAddress.cityName", "company.terminals.headOffice.address.cityName" );
+            }
+
+        }
+
+        function copyPostalCode() {
+            if( $jq( "#billingSameAsMain" ).is( ":checked" ) ) {
+                overwritePostalCode();
+            } else {
+                copyElement( "company.billingDetails.billingAddress.postalCode", "company.terminals.headOffice.address.postalCode" );
+            }
+        }
+
+        function copyStateProvince() {
+            document.forms["form"][ "billingStateProvinceId" ].selectedIndex = document.forms["form"][ "stateProvinceId" ].selectedIndex;
+        }
+
+        function overwriteAddress() {
+            overwriteElement( "company.billingDetails.billingAddress.addressLine1", "company.terminals.headOffice.address.addressLine1" );
+        }
+
+        function overwriteCity() {
+            overwriteElement( "company.billingDetails.billingAddress.cityName", "company.terminals.headOffice.address.cityName" );
+        }
+
+        function overwritePostalCode() {
+            overwriteElement( "company.billingDetails.billingAddress.postalCode", "company.terminals.headOffice.address.postalCode" );
+        }
+
+        function copyPhone() {
+            copyElement( "person.phoneNumber", "company.terminals.headOffice.phoneNumber" );
+        }
+
+        function copyElement( toElement, fromElement ) {
+            if( document.forms["form"][ toElement ].value == "" ) {
+                document.forms["form"][ toElement ].value = document.forms["form"][ fromElement ].value;
+            }
+        }
+
+        function overwriteElement( toElement, fromElement ) {
+            document.forms["form"][ toElement ].value = document.forms["form"][ fromElement ].value;
+        }
+
+        function showElementIfTriggerIsChecked( element, trigger ) {
+            if( $jq( trigger ).is( ":checked" ) ) {
+                $jq( element ).hide();
+            } else {
+                $jq( element ).show();
+            }
+        }
+
+        if( !$jq( $bc.utils.encodeSelector( "#company.registeredForFax" ) ).is( ":checked" ) && !$jq( $bc.utils.encodeSelector( "#company.registeredForConsulting" ) ).is( ":checked" ) ) {
+            $jq( "#advancedServices" ).hide();
+            $jq( "#showAdvancedServicesLink" ).click( function() {
+                $jq( "#company\\.registeredForBundled:checked" ).click();
+                $jq( "#advancedServices" ).show();
+                $jq( "#showAdvancedServicesLink" ).hide();
+            } );
+        } else {
+            $jq( "#showAdvancedServicesLink" ).hide();
+        }
+
+        if( $jq( "#billingSameAsMain" ).is( ":checked" ) ) {
+            $jq( ".billingDetails" ).hide();
+        }
+
+        $jq( "#billingSameAsMain" ).click( function( event ) {
+            overwriteAddress();
+            overwriteCity();
+            overwritePostalCode();
+            copyStateProvince();
+
+            showElementIfTriggerIsChecked( ".billingDetails", event.target );
+        } );
+
+        $jq( "#nonBundledServices" ).hide();
+
+        if( $jq( $bc.utils.encodeSelector( "#company.registeredForBundled" ) ).is( ":checked" ) ) {
+            $jq( "#nonBundledServices input[type=checkbox]" ).prop('checked', true);
+        } else {
+            showElementIfTriggerIsChecked( "#nonBundledServices", $bc.utils.encodeSelector( "#company.registeredForBundled" ) );
+        }
+
+        $jq( $bc.utils.encodeSelector( "#company.registeredForBundled" ) ).click( function( event ) {
+            $jq( "#nonBundledServices input[type=checkbox]" ).prop('checked', true);
+            showElementIfTriggerIsChecked( "#nonBundledServices", event.target );
+        } );
+
+        var isPersonManuallyEdited = false;
+
+        $jq( "#personEmailAddressInput" ).keyup( function( event ) {
+            isPersonManuallyEdited = true;
+        } );
+
+        $jq( "#billingEmailInput" ).bind( "input", function() {
+                    if( !isPersonManuallyEdited ) {
+                        var val = $jq( this ).val();
+                        $jq( "#personEmailAddressInput" ).val( val );
+                    }
+                }
+        );
+
+        function copyCompanyInformation() {
+            copyElement( "company.billingDetails.billingAddress.addressLine1", "company.terminals.headOffice.address.addressLine1" );
+            copyElement( "company.billingDetails.billingAddress.cityName", "company.terminals.headOffice.address.cityName" );
+            document.forms["form"][ "billingStateProvinceId" ].selectedIndex = document.forms["form"][ "stateProvinceId" ].selectedIndex;
+            copyElement( "company.billingDetails.billingAddress.postalCode", "company.terminals.headOffice.address.postalCode" );
+        }
+
+        $jq( "#finish" ).click( function() {
+            if( $jq( "#billingSameAsMain" ).is( ":checked" ) ) {
+                copyCompanyInformation();
+            }
+        } );
+
+
+        $bc.cookieUtils.setupCookieLoadForForm( "#form" );
+
+
+        $jq( "#ajaxSubmitButton" ).click( function() {
+            $jq( "#ajaxSubmitButton" ).attr( "disabled", "disabled" );
+            $jq( "#ajaxSubmitButtonText" ).html( "Please wait..." );
+        } );
+
+        $jq( "#form" ).keypress( function( event ) {
+            var code = event.keyCode || event.which;
+            if( code == '13' ) {
+                $jq( "#ajaxSubmitButton" ).attr( "disabled", "disabled" );
+                $jq( "#ajaxSubmitButtonText" ).html( "Please wait..." );
+            }
+        } );
+
+        $jq( "#form" ).submit( function() {
+            $jq( '#finish' ).attr( 'disabled', 'disabled' );
+        } );
+
+        $jq( "#carrierCodeValue" ).blur( function() {
+            $bc.utils.toUpperCase( this );
+        } );
+
+        $jq( "#scacCodeValue" ).blur( function() {
+            $bc.utils.toUpperCase( this );
+        } );
+
+        $jq( "#headOfficeAddressLine1" ).blur( function() {
+            copyAddress();
+        } );
+
+        $jq( "#headOfficeAddressCity" ).blur( function() {
+            copyCity();
+        } );
+
+        $jq( "#stateProvinceId" ).blur( function() {
+            copyStateProvince();
+        } );
+
+        $jq( "#headOfficeAddressPostalCode" ).blur( function() {
+            $bc.utils.toUpperCase( this );
+            copyPostalCode();
+        } );
+
+        $jq( "#headOfficePhoneNumber" ).blur( function() {
+            copyPhone();
+        } );
+
+        $jq( "#billingPostalCode" ).blur( function() {
+            $bc.utils.toUpperCase( this );
+        } );
+
+        $jq( "#password" ).keyup( function() {
+            $bc.securityControl.handlePasswordQuality( this.value );
+        } );
+
+        function containsHighwayCarrierAccountType() {
+            return $jq.inArray( "HIGHWAY_CARRIER", $jq( "#accountTypeCodes" ).val() ) != -1;
+        }
+
+        function containsWarehouseAccountType() {
+            return $jq.inArray( "WAREHOUSE", $jq( "#accountTypeCodes" ).val() ) != -1;
+        }
+
+        function updateHighwayCarrierElements() {
+            if( containsHighwayCarrierAccountType() ) {
+                $jq( "#carrierCodeTableRow" ).show();
+                $jq( "#scacCodeTableRow" ).show();
+                $jq( "#highwayCarrierServices" ).show();
+                $jq( "#company\\.registeredForBundled" ).prop('checked', true );
+            } else {
+                $jq( "#carrierCodeTableRow" ).hide();
+                $jq( "#scacCodeTableRow" ).hide();
+                $jq( "#highwayCarrierServices" ).hide();
+                $jq( "#highwayCarrierServices" ).find("input[type='checkbox']").prop('checked', false );
+            }
+        }
+
+        function updateWarehouseElements() {
+
+            if( containsWarehouseAccountType() ) {
+                $jq( "#sublocationTableRow" ).show();
+                $jq( "#warehouseServices" ).show();
+                $jq( "#warehouseServices" ).find("input[type='checkbox']").prop('checked', true );
+            } else {
+                $jq( "#sublocationTableRow" ).hide();
+                $jq( "#warehouseServices" ).hide();
+                $jq( "#warehouseServices" ).find("input[type='checkbox']").prop('checked', false );
+            }
+        }
+
+        $jq( "#accountTypeCodes" ).on( "change", function( e ){
+                updateWarehouseElements();
+                updateHighwayCarrierElements();
+                if( !containsHighwayCarrierAccountType() && !containsWarehouseAccountType() ) {
+                    $jq( "#allServicesTableRow" ).find("input[type='checkbox']").prop('checked', false );
+                    $jq( "#allServicesTableRow" ).hide();
+                } else {
+                    $jq( "#allServicesTableRow" ).show();
+                }
+            }
+        );
+
+        updateWarehouseElements();
+        updateHighwayCarrierElements();
+        setTimeout( function(){$jq( "#companyNameInputElement" ).focus();}, 100 );
+    } );
+</script>
+<!-- Google Code for Registration Page Conversion Page -->
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 979744256;
+    var google_conversion_language = "en";
+    var google_conversion_format = "3";
+    var google_conversion_color = "ffffff";
+    var google_conversion_label = "LFEQCMGtiGwQgOyW0wM";
+    var google_remarketing_only = false;
+    /* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+    <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/979744256/?label=LFEQCMGtiGwQgOyW0wM&amp;guid=ON&amp;script=0"/>
+    </div>
+</noscript>
+        </div>
+
+        <div class="push"></div>
+    </div>
+
+
+</div>
+        <script type="text/javascript">
+
+            $jq(document).ready(function(){
+                $bc.utils.initTooltips();
+
+                $jq( '[data-expiry-date]' ).checkIfExpired();
+                $jq( '[data-start-date]' ).checkIfPastStartDate();
+
+    if( typeof( errorFocusElementName ) != "undefined" ) {
+        var elementToFocus = $jq( "#" + $bc.utils.encodeSelector( errorFocusElementName ) );
+
+        if( elementToFocus.length > 0 ) {
+            elementToFocus.first().focus();
+        } else {
+            $jq( "[name=" + $bc.utils.encodeSelector( errorFocusElementName ) + "]" ).first().focus();
+        }
+    }
+            });
+                $bc.utils.googleAnalytics();
+
+            // Google Code for Remarketing Tag
+            var google_tag_params = {
+                dynx_itemid: 'REPLACE_WITH_VALUE',
+                dynx_itemid2: 'REPLACE_WITH_VALUE',
+                dynx_pagetype: 'REPLACE_WITH_VALUE',
+                dynx_totalvalue: 'REPLACE_WITH_VALUE',
+            };
+
+            /* <![CDATA[ */
+            var google_conversion_id = 979744256;
+            var google_custom_params = window.google_tag_params;
+            var google_remarketing_only = true;
+            /* ]]> */
+        </script>
+        <div style="display: none">
+            <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+        </div>
+        <noscript>
+            <div style="display:inline;">
+                <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/979744256/?value=0&amp;guid=ON&amp;script=0"/>
+            </div>
+
+            <img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?ev=6030796119814&amp;cd[value]=0.01&amp;cd[currency]=CAD&amp;noscript=1" />
+        </noscript>
+	</body>
+</html>

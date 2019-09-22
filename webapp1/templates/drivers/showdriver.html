@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block content%}
+<div class="table-responsive">
+<table class="table">
+    <tr>
+        <td><b>First Name</b></td>
+            <td><b>Last Name</b></td>
+            <td><b>Driver's License</b></td>
+            <td><b>Driver's License State</b></td>
+    </tr>
+        {% for i in data %}
+
+        <tr>
+            <td>{{i.First_Name}}</td>
+            <td>{{i.Last_Name}}</td>
+            <td>{{i.Drivers_License}}</td>
+            <td>{{i.Drivers_License_State}}</td>
+    <td><button><a href ="/drivers/edit-driver?uid={{i.uid}}">Update</a></button></td>
+            <td><button><a href ="/drivers/deletedriver?uid={{i.uid}}">Delete</a></button></td>
+
+            <td><a href = "/drivers/show-logs?uid={{i.uid}}"> View Driver Logs </a></td>
+    </tr>
+
+          {% endfor %}
+
+</table>
+</div>
+{% endblock%}
