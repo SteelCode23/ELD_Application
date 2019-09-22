@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="47d3c7c3-da13-4172-9ba1-dd71d90b5538" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ELD App/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/.idea/webapp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/celery_runner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/client-secret.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/database3.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/gmail-python-quickstart1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/my_master.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/sendtomto.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/css/.idea/css.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/css/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/css/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/css/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/css/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/css/landing-page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/css/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/css/login_page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/css/sb-admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/css/sb-admin.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/font-awesome/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/font-awesome/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/font-awesome/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/font-awesome/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/font-awesome/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/font-awesome/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/font-awesome/less/spinning.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/font-awesome/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/font-awesome/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/font-awesome/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/font-awesome/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/font-awesome/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/font-awesome/scss/_spinning.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/fonts/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/fonts/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/fonts/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/fonts/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/fonts/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/fonts/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/fonts/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/fonts/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/fonts/font-awesome/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/fonts/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/fonts/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/fonts/font-awesome/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/fonts/font-awesome/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/fonts/font-awesome/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/fonts/font-awesome/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/fonts/font-awesome/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/fonts/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/fonts/font-awesome/less/spinning.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/fonts/font-awesome/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/fonts/font-awesome/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/fonts/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/fonts/font-awesome/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/fonts/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/fonts/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/fonts/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/fonts/font-awesome/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/fonts/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/fonts/font-awesome/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/fonts/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/fonts/font-awesome/scss/_spinning.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/fonts/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/fonts/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/fonts/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/img/Capture.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/img/Contact-us-.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/img/TEST.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/img/banner-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/img/banner-bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/img/dog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/img/intro-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/img/intro-bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/img/ipad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/img/phones.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/img/services.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/img/truck.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/js/Leaflet.AnimatedMarker-master/Leaflet.AnimatedMarker-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/js/Leaflet.AnimatedMarker-master/Leaflet.AnimatedMarker-master/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/js/Leaflet.AnimatedMarker-master/Leaflet.AnimatedMarker-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/js/Leaflet.AnimatedMarker-master/Leaflet.AnimatedMarker-master/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/js/Leaflet.AnimatedMarker-master/Leaflet.AnimatedMarker-master/example/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/js/Leaflet.AnimatedMarker-master/Leaflet.AnimatedMarker-master/example/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/js/Leaflet.AnimatedMarker-master/Leaflet.AnimatedMarker-master/example/marker-bike-green-shadowed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/js/Leaflet.AnimatedMarker-master/Leaflet.AnimatedMarker-master/example/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/js/Leaflet.AnimatedMarker-master/Leaflet.AnimatedMarker-master/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/js/Leaflet.AnimatedMarker-master/Leaflet.AnimatedMarker-master/src/AnimatedMarker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/js/MovingMarker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/js/animatedmarker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/js/images/layers-2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/js/images/layers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/js/images/marker-icon-2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/js/images/marker-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/js/images/marker-shadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/js/leaflet-src.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/js/leaflet-src.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/js/leaflet-src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/js/leaflet-src.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/js/leaflet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/js/leaflet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/js/leaflet.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/js/marker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/js/sb-admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/js/sb-admin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/scss/_cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/scss/_global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/scss/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/scss/sb-admin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/sendtomto.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/chart.js/Chart.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/chart.js/Chart.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/chart.js/Chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/chart.js/Chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/datatables/dataTables.bootstrap4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/datatables/dataTables.bootstrap4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/datatables/jquery.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/font-awesome/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/font-awesome/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/font-awesome/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/font-awesome/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/font-awesome/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/font-awesome/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/font-awesome/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/font-awesome/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/font-awesome/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/font-awesome/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/font-awesome/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/font-awesome/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/font-awesome/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/font-awesome/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/font-awesome/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/jquery-easing/jquery.easing.compatibility.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/jquery-easing/jquery.easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/jquery-easing/jquery.easing.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/tether/tether.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/static/vendor/tether/tether.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/templates/admin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/templates/my_master.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp.wsgi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/celery_runner.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/celerybeat-schedule" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/controllers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/controllers/_test_.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/controllers/account.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/controllers/background_daemon.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/controllers/devices.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/controllers/drivers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/controllers/dvir.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/controllers/elogstation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/controllers/logs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/controllers/maps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/controllers/odb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/controllers/paperwork.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/controllers/post_events.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/controllers/rest/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/controllers/rest/certify.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/controllers/rest/eld.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/controllers/rest/events.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/controllers/rest/fields.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/controllers/rest/get_location.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/controllers/rest/parsers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/controllers/rest/parsers2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/controllers/rest/paserser2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/controllers/rest/post.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/controllers/rest/post_events.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/controllers/rest/status.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/controllers/rest/tests/ajax/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/controllers/rest/tests/ajax/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/controllers/rest/tests/ajax/templates/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/controllers/rest/tests/ajax/templates/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/controllers/rest/tests/simulation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/controllers/rest/tests/testcelery.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/controllers/rest/tests/testimportdata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/controllers/rest/tests/testplotly.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/controllers/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/controllers/testdatamodel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/controllers/testimportdata.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/controllers/trucks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/controllers/webservices.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/extensions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/css/.idea/css.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/css/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/css/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/css/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/css/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/css/landing-page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/css/login_page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/css/sb-admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/css/sb-admin.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/font-awesome/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/font-awesome/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/font-awesome/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/font-awesome/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/font-awesome/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/font-awesome/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/font-awesome/less/spinning.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/font-awesome/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/font-awesome/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/font-awesome/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/font-awesome/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/font-awesome/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/font-awesome/scss/_spinning.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/fonts/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/fonts/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/fonts/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/fonts/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/fonts/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/fonts/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/fonts/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/fonts/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/fonts/font-awesome/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/fonts/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/fonts/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/fonts/font-awesome/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/fonts/font-awesome/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/fonts/font-awesome/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/fonts/font-awesome/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/fonts/font-awesome/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/fonts/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/fonts/font-awesome/less/spinning.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/fonts/font-awesome/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/fonts/font-awesome/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/fonts/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/fonts/font-awesome/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/fonts/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/fonts/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/fonts/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/fonts/font-awesome/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/fonts/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/fonts/font-awesome/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/fonts/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/fonts/font-awesome/scss/_spinning.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/fonts/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/fonts/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/fonts/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/img/Capture.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/img/Contact-us-.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/img/TEST.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/img/banner-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/img/banner-bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/img/dog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/img/intro-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/img/intro-bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/img/ipad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/img/phones.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/img/services.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/img/truck.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/js/MovingMarker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/js/animatedmarker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/js/leaflet-src.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/js/leaflet-src.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/js/leaflet-src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/js/leaflet-src.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/js/leaflet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/js/leaflet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/js/leaflet.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/js/marker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/js/sb-admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/js/sb-admin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/scss/_cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/scss/_global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/scss/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/scss/sb-admin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/sendtomto.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/chart.js/Chart.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/chart.js/Chart.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/chart.js/Chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/chart.js/Chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/datatables/dataTables.bootstrap4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/datatables/dataTables.bootstrap4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/datatables/jquery.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/font-awesome/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/font-awesome/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/font-awesome/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/font-awesome/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/font-awesome/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/font-awesome/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/font-awesome/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/font-awesome/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/font-awesome/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/font-awesome/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/font-awesome/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/font-awesome/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/font-awesome/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/font-awesome/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/font-awesome/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/jquery-easing/jquery.easing.compatibility.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/jquery-easing/jquery.easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/jquery-easing/jquery.easing.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/tether/tether.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/static/vendor/tether/tether.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/tasks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/_initial_login_.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/my_master.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/_admin_override_.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/admin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/admin/my_master.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/devices/devices.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/devices/devicesgrid.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/devices/senddatabluetooth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/devices/senddataemail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/devices/senddatausb.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/devices/senddatawifi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/drivers/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/drivers/create-driver.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/drivers/create-driver1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/drivers/create-driver2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/drivers/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/drivers/driver.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/drivers/showdriver.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/dvir/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/dvir/createdvir.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/dvir/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/dvir/paperwork.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/elogstation/admin-home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/elogstation/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/elogstation/base1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/elogstation/base2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/elogstation/borderconnectsexample.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/elogstation/elogstationexample.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/elogstation/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/elogstation/home1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/elogstation/home2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/elogstation/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/elogstation/landingpage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/elogstation/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/elogstation/register1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/elogstation/register2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/elogstation/user-create-admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/elogstation/user-update-admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/elogstation/users-list-admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/list_template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/logs/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/logs/elog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/logs/elog1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/logs/gas.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/logs/gasoline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/logs/logs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/logs/senddata.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/logs/senddatabluetooth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/logs/senddataemail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/logs/senddatausb.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/logs/senddatawifi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/my_master.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/my_master1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/showuser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/testjs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/trucks/create-truck.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/trucks/create-truck1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/trucks/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/trucks/createtruck.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/trucks/show-trucks.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/trucks/showtruck.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/webservices/senddatabluetooth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/webservices/senddataemail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/webservices/senddatausb.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/admin/templates/webservices/senddatawifi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/devices.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/devices/createdevice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/devices/editdevice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/devices/showdevice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/drivers/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/drivers/create-driver.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/drivers/editdriver.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/drivers/showdriver.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/dvir/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/dvir/createdvir.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/dvir/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/dvir/paperwork.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/elogstation/admin-home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/elogstation/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/elogstation/base1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/elogstation/base2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/elogstation/borderconnectsexample.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/elogstation/elogstationexample.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/elogstation/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/elogstation/home1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/elogstation/home2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/elogstation/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/elogstation/landingpage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/elogstation/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/elogstation/register1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/elogstation/register2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/elogstation/user-create-admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/elogstation/user-update-admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/elogstation/users-list-admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/logs/certifylogs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/logs/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/logs/elog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/logs/elog1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/logs/elogstation/admin-home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/logs/elogstation/base1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/logs/elogstation/base2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/logs/elogstation/borderconnectsexample.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/logs/elogstation/elogstationexample.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/logs/elogstation/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/logs/elogstation/home1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/logs/elogstation/home2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/logs/elogstation/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/logs/elogstation/landingpage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/logs/elogstation/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/logs/elogstation/register1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/logs/elogstation/register2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/logs/elogstation/user-create-admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/logs/elogstation/user-update-admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/logs/elogstation/users-list-admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/logs/gas.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/logs/gasoline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/logs/logs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/logs/senddata.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/logs/senddatabluetooth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/logs/senddataemail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/logs/senddatausb.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/logs/senddatawifi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/maps/_chapter_2_.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/maps/_test_leaflet_.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/maps/iframetest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/maps/maps.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/maps/maps_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/maps/maptest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/maps/mobile_map.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/my_master.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/my_master1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/showuser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/css/.idea/css.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/css/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/css/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/css/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/css/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/css/landing-page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/css/login_page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/css/sb-admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/css/sb-admin.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/font-awesome/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/font-awesome/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/font-awesome/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/font-awesome/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/font-awesome/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/font-awesome/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/font-awesome/less/spinning.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/font-awesome/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/font-awesome/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/font-awesome/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/font-awesome/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/font-awesome/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/font-awesome/scss/_spinning.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/fonts/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/fonts/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/fonts/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/fonts/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/fonts/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/fonts/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/fonts/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/fonts/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/fonts/font-awesome/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/fonts/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/fonts/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/fonts/font-awesome/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/fonts/font-awesome/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/fonts/font-awesome/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/fonts/font-awesome/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/fonts/font-awesome/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/fonts/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/fonts/font-awesome/less/spinning.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/fonts/font-awesome/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/fonts/font-awesome/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/fonts/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/fonts/font-awesome/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/fonts/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/fonts/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/fonts/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/fonts/font-awesome/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/fonts/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/fonts/font-awesome/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/fonts/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/fonts/font-awesome/scss/_spinning.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/fonts/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/fonts/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/fonts/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/img/Capture.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/img/Contact-us-.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/img/TEST.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/img/banner-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/img/banner-bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/img/dog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/img/intro-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/img/intro-bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/img/ipad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/img/phones.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/img/services.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/img/truck.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/js/MovingMarker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/js/animatedmarker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/js/marker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/js/sb-admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/js/sb-admin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/layout.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/scss/_cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/scss/_global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/scss/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/scss/sb-admin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/sendtomto.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/chart.js/Chart.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/chart.js/Chart.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/chart.js/Chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/chart.js/Chart.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/datatables/dataTables.bootstrap4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/datatables/dataTables.bootstrap4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/datatables/jquery.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/font-awesome/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/font-awesome/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/font-awesome/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/font-awesome/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/font-awesome/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/font-awesome/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/font-awesome/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/font-awesome/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/font-awesome/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/font-awesome/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/font-awesome/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/font-awesome/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/font-awesome/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/font-awesome/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/font-awesome/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/jquery-easing/jquery.easing.compatibility.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/jquery-easing/jquery.easing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/jquery-easing/jquery.easing.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/tether/tether.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/static/vendor/tether/tether.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/testjs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/trucks/create-truck.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/trucks/device_login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/trucks/edittruck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/trucks/edittruck.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/trucks/show-trucks.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/trucks/showtruck.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/webservices/senddatabluetooth.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/webservices/senddataemail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/webservices/senddatausb.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/templates/webservices/senddatawifi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/testapi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/webapp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/webapp1/webapp.wsgi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ELD App/~$sendtomto.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Linkedin/Capture.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Linkedin/IMG-6220.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Linkedin/Image.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anaconda3/Lib/site-packages/Flask_Login-0.4.1.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anaconda3/Lib/site-packages/Flask_Login-0.4.1.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anaconda3/Lib/site-packages/Flask_Login-0.4.1.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anaconda3/Lib/site-packages/Flask_Login-0.4.1.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anaconda3/Lib/site-packages/Flask_Login-0.4.1.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anaconda3/Lib/site-packages/Flask_Login-0.4.1.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anaconda3/Lib/site-packages/Flask_Login-0.4.1.dist-info/version_info.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anaconda3/Lib/site-packages/flask_login/__about__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anaconda3/Lib/site-packages/flask_login/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anaconda3/Lib/site-packages/flask_login/_compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anaconda3/Lib/site-packages/flask_login/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anaconda3/Lib/site-packages/flask_login/login_manager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anaconda3/Lib/site-packages/flask_login/mixins.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anaconda3/Lib/site-packages/flask_login/signals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../anaconda3/Lib/site-packages/flask_login/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/webapp$webapp.coverage" NAME="webapp Coverage Results" MODIFIED="1540162007174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/webapp$_test_.coverage" NAME="_test_ Coverage Results" MODIFIED="1540158772477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webapp1/controllers" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>for i in</find>
+      <find>args</find>
+      <find>body</find>
+      <find>logout</find>
+      <find>Trucks</find>
+      <find>show</find>
+      <find>Logout</find>
+      <find>On Duty</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/static/js/Leaflet.AnimatedMarker-master/Leaflet.AnimatedMarker-master/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectId" id="1POBhBcryWL6HFNjUoihriXF53A" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\ELOGSTATION\webapp\webapp1\templates\maps" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.webapp">
+    <configuration name="_test_" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="webapp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/webapp1/controllers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/webapp1/controllers/_test_.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="webapp" type="PythonConfigurationType" factoryName="Python" singleton="true">
+      <module name="webapp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/webapp.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.webapp" />
+      <item itemvalue="Python._test_" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python._test_" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47d3c7c3-da13-4172-9ba1-dd71d90b5538" name="Default Changelist" comment="" />
+      <created>1539454725162</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539454725162</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
